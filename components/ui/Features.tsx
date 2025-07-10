@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { CloudUpload, Lock, RefreshCcw, Fingerprint } from "lucide-react";
-import { Card, CardHeader, CardContent, CardTitle } from "@/components/ui/card";
 import { CardSpotlight } from "./card-spotlight";
 
 const features = [

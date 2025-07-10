@@ -12,7 +12,7 @@ export default async function analyzeCodebase(
   const formattedAspects = aspects.map((aspect) => aspect.title).join(", ");
 
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyBiP8w6VqHXHb1RrxXhEvLnZ4AcAYzAJeI",
+    apiKey: process.env.GEMINI_API_KEY,
   });
 
   const response = await ai.models.generateContent({

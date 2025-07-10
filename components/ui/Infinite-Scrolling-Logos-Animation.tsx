@@ -8,7 +8,7 @@ import beeline from "@/public/beeline-logo-full-white-text.svg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-const CompanyLogoData: Array<{ src: any; alt: string }> = [
+const CompanyLogoData: Array<{ src: string; alt: string }> = [
   { src: eldaroda, alt: "eldaroda Logo" },
   { src: ipsen, alt: "ipsen Logo" },
   { src: zetta, alt: "zetta Logo" },
